@@ -48,7 +48,6 @@ function Remove-FtpFile ($source, $credentials) {
 }
 
 #set Crednetials
-#test
 $credentials = new-object System.Net.NetworkCredential($user, $pass)
 
 #set folder path
